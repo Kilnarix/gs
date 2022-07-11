@@ -384,8 +384,8 @@ def configure(conf, awesomium=False, awesomium_debug=False, assimp=False):
         lua_lib_path = [os.path.join(libpath, 'lib')]
     else:
         lua_lib_path = ['/usr/local/lib', '/usr/local/lib32']
-        lua_inc_path = ['/usr/include/luajit-2.0',
-                        '/usr/local/include/luajit-2.0']
+        lua_inc_path = ['/usr/include/luajit-2.1',
+                        '/usr/local/include/luajit-2.1']
 
     if OS == 'Windows' or windows:
         conf.check(header_name='lua.hpp',
