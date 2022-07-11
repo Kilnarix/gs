@@ -4,7 +4,7 @@
 #include "_main.cpp"
 #include <lua.hpp>
 
-#include <SDL.h>
+#include <SDL/SDL.h>
 
 int main(int argc, char* argv[])
 {
