@@ -2,7 +2,7 @@
    Licensed under GPLv3 */
 #include "_c_lib.cpp"
 #include "_main.cpp"
-#include <common/lua/lua.hpp>
+#include <lua.hpp>
 
 #include <SDL.h>
 
